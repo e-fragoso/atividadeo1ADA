@@ -1,0 +1,53 @@
+body{
+  background-image: url(./img/alimentos.jpg);
+}
+
+nav {
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Alinhamento de texto no centro */
+  }
+
+  ul {
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover preenchimento padrão */
+  }
+
+  li {
+    display: inline; /* Itens de lista na mesma linha */
+    margin-right: 20px; /* Espaço entre os itens */
+  }
+
+  a {
+    text-decoration: none; /* Remover sublinhado de links */
+    color: #fff; /* Cor do texto do link */
+  }
+
+  .main-product-style{
+    text-align: center;
+    display: inline-block;
+
+  }
+
+  .figure-product-style{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    width: 250px;
+    display: inline-block;
+  }
+
+  .figureImgproduct-style{
+    max-width: 100%;
+    height: auto;
+
+  }
+
+  .figureCapition-product-style{
+    margin-top: 10px;
+  }
+
+  
