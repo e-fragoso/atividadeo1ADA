@@ -1,26 +1,64 @@
 body{
-  background-image: url(./img/alimentos.jpg);
+  background-image: url();
 }
 
-nav {
-    background-color: #333; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    text-align: center; /* Alinhamento de texto no centro */
+
+  /* css div que abraça todo codigo*/
+
+  .global-div{
+    padding: 5%;
   }
 
-  ul {
+  /* css navegação*/
+
+  nav {
+    background-color: rgb(14, 21, 64); /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Alinhamento de texto no centro */    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+  
+  }
+
+  .logo{ 
+    width: 8%;
+    height: 8%;
+    padding-left:15px ;
+    padding-right: 15px ;
+
+  } 
+  .ul-nav {
     list-style: none; /* Remover marcadores de lista */
     padding: 0; /* Remover preenchimento padrão */
+    display: flex;
+    align-items: center;
   }
 
-  li {
+  .li-nav {
     display: inline; /* Itens de lista na mesma linha */
     margin-right: 20px; /* Espaço entre os itens */
   }
 
-  a {
+  .a-nav {
     text-decoration: none; /* Remover sublinhado de links */
     color: #fff; /* Cor do texto do link */
+  }
+
+    /*css banner de entrada ( entregador)*/
+
+  .imagem-entregador {
+    width: 100%;
+  }
+
+
+   /*css Cards */
+  .cards {
+    display: flex;
+    justify-content: space-between;
+
   }
 
   .main-product-style{
@@ -49,5 +87,14 @@ nav {
   .figureCapition-product-style{
     margin-top: 10px;
   }
+
+/* css tabela*/
+
+.alimentos-tabela {
+width: 100px;
+height: 100px;
+}
+
+
 
   
