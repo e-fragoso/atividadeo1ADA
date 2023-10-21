@@ -1,5 +1,6 @@
 body{
-  background-image: url();
+  background-image: url(./img/logo/annie-spratt-pKpipZVVEC0-unsplash.jpg);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -20,6 +21,7 @@ body{
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
+    border-radius: 10px;
   
   }
 
@@ -45,6 +47,7 @@ body{
   .a-nav {
     text-decoration: none; /* Remover sublinhado de links */
     color: #fff; /* Cor do texto do link */
+    scroll-behavior: smooth;
   }
 
     /*css banner de entrada ( entregador)*/
@@ -90,11 +93,43 @@ body{
 
 /* css tabela*/
 
-.alimentos-tabela {
+.img-alimentos-tabela {
 width: 100px;
 height: 100px;
 }
 
+.tabela-cor {
+  background-color: bisque;
+}
 
+.servicos-promocoes{
+display: flex;
+justify-content: space-between;
+}
 
-  
+.frase-centro {
+  text-align: center;
+}
+
+.texto-resumo {
+  background-color: rgb(14, 21, 64);
+  color: #fff;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+/*CSS Footer*/
+
+footer {
+  background-color: rgb(6, 8, 24);
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.fotter-principal-div{
+  display: flex;
+  align-items:baseline;
+  justify-content: space-between;
+}
